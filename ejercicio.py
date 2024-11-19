@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 ## ATENCION: Debe colocar la direccion en la que ha sido publicada la aplicacion en la siguiente linea\
-# url = 'https://tp8-555555.streamlit.app/'
+# url = 'https://tp8-58865.streamlit.app/'
 
 # Configuración inicial de la página
 st.set_page_config(page_title="Ventas por Sucursal", layout="wide")
