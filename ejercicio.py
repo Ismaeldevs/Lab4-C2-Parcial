@@ -3,6 +3,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+## ATENCION: Debe colocar la direccion en la que ha sido publicada la aplicacion en la siguiente linea\
+# url = 'https://tp8-555555.streamlit.app/'
+
 # Configuración inicial de la página
 st.set_page_config(page_title="Ventas por Sucursal", layout="wide")
 
@@ -113,9 +116,6 @@ if uploaded_file:
                         ax.legend()
                         plt.grid(True)
                         st.pyplot(fig)
-
-## ATENCION: Debe colocar la direccion en la que ha sido publicada la aplicacion en la siguiente linea\
-# url = 'https://tp8-555555.streamlit.app/'
 
 def mostrar_informacion_alumno():
     with st.container(border=True):
